@@ -32,11 +32,45 @@ app.get('/scrape', function(req, res){
       })
     }
 
+/*
     fs.writeFile('output.json', JSON.stringify(json, null, 4), function(err){
       console.log('File successfully written! - Check your project directory for the output.json file');
     })
+    */
+    res.send(json)
 
-    res.send('Check your console!')
+
+  //  res.send('Check your console!')
+  })
+})
+
+app.get('/colissimo',function(req,res){
+  url = 'http://www.colissimo.fr/portail_colissimo/suivreResultat.do?parcelnumber=9L17009616750';
+
+  request(url,function(error,response,html){
+    if(!error){
+      var $ = cheerio.load(html);
+
+      var result,head;
+      var json ={result:"", head:""};
+
+      $('.dataArray').filter(function(){
+        var data = $(this);
+
+        result = data.children().text().trim();
+        head = data.children().last().children().last().text().trim();
+
+        json.result = result;
+        json.head = head;
+      })
+    }
+/*
+    fs.writeFile('colissimo.json', JSON.stringify(json, null, 4), function(err){
+      console.log('File successfully written! - Check your project directory for the output.json file');
+    })
+    */
+    res.send(json)
+    //res.send('hey look your output')
   })
 })
 
