@@ -1,28 +1,29 @@
-var express = require('express');
-var fs = require('fs');
-var request = require('request');
-var cheerio = require('cheerio');
-var app = express();
+/*jshint node: true*/
 
-var port = process.env.PORT || 8080;
+var express = require('express'),
+    fs = require('fs'),
+    request = require('request'),
+    cheerio = require('cheerio'),
+    app = express(),
+    port = process.env.PORT || 8080;
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
-app.get('/',function(req,res){
+app.get('/', function (req, res) {
   // ejs render automatically looks in the views folder
-     res.render('index');
+  res.render('index');
 })
 
-app.get('/scrape', function(req, res){
+app.get('/scrape', function (req, res) {
   // Let's scrape Anchorman 2
-  url = 'http://www.imdb.com/title/tt1229340/';
+url = 'http://www.imdb.com/title/tt1229340/';
 
-  request(url, function(error, response, html){
-    if(!error){
-      var $ = cheerio.load(html);
+  request (url, function (error, response, html){
+    if (!error) {
+    var $ = cheerio.load(html);
 
       var title, release, rating;
       var json = { title : "", release : "", rating : ""};
