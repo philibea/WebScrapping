@@ -1,12 +1,12 @@
 {
-  "name"         : "node-web-scrape",
+  "name"         : "WebTracking-Node",
   "version"      : "0.0.1",
   "description"  : "Scrape le web.",
   "main"         : "server.js",
-  "author"       : "Scotch",
+  "author"       : "Alexandre Philibeaux",
   "repository"   : {
     "type" : "git",
-    "url"  : "https://github.com/scotch-io/node-web-scraper"
+    "url"  : "https://github.com/philibea/WebScrapping"
   },
   "dependencies" : {
     "express"    : "latest",
