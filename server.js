@@ -4,6 +4,11 @@ var request = require('request');
 var cheerio = require('cheerio');
 var app = express();
 
+var port = process.env.PORT || 8080;
+
+// make express look in the public directory for assets (css/js/img)
+app.use(express.static(__dirname + '/public'));
+
 app.get('/scrape', function(req, res){
   // Let's scrape Anchorman 2
   url = 'http://www.imdb.com/title/tt1229340/';
@@ -108,7 +113,8 @@ app.get('/ups',function(req,res){
     //res.send('hey look your output')
   })
 })
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});
 
-app.listen('8081')
-console.log('Magic happens on port 8081');
 exports = module.exports = app;

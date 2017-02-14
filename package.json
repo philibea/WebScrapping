@@ -3,6 +3,9 @@
   "version"      : "0.0.1",
   "description"  : "Scrape le web.",
   "main"         : "server.js",
+  "scripts"      :{
+    "start" : "node server.js"
+  },
   "author"       : "Alexandre Philibeaux",
   "repository"   : {
     "type" : "git",
