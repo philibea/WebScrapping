@@ -1,0 +1,308 @@
+info it worked if it ends with ok
+verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'express' ]
+info using npm@1.1.4
+info using node@v0.6.19
+verbose config file /root/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/package.json
+verbose loadDefaults WebTracking-Node@0.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/jodid25519/package.json
+verbose loadDefaults jodid25519@1.0.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/json-stringify-safe/package.json
+verbose loadDefaults json-stringify-safe@5.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/mime-db/package.json
+verbose loadDefaults mime-db@1.26.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/express/package.json
+verbose loadDefaults express@4.14.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/readable-stream/package.json
+verbose loadDefaults readable-stream@2.2.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.defaults/package.json
+verbose loadDefaults lodash.defaults@4.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/escape-string-regexp/package.json
+verbose loadDefaults escape-string-regexp@1.0.5
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/ansi-regex/package.json
+verbose loadDefaults ansi-regex@2.1.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/core-util-is/package.json
+verbose loadDefaults core-util-is@1.0.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.merge/package.json
+verbose loadDefaults lodash.merge@4.6.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.foreach/package.json
+verbose loadDefaults lodash.foreach@4.5.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/serve-static/package.json
+verbose loadDefaults serve-static@1.11.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/hawk/package.json
+verbose loadDefaults hawk@3.1.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.filter/package.json
+verbose loadDefaults lodash.filter@4.6.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/http-signature/package.json
+verbose loadDefaults http-signature@1.1.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/htmlparser2/package.json
+verbose loadDefaults htmlparser2@3.9.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/extend/package.json
+verbose loadDefaults extend@3.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/commander/package.json
+verbose loadDefaults commander@2.9.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/getpass/package.json
+verbose loadDefaults getpass@0.1.6
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/entities/package.json
+verbose loadDefaults entities@1.1.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/boolbase/package.json
+verbose loadDefaults boolbase@1.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/strip-ansi/package.json
+verbose loadDefaults strip-ansi@3.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/jsonpointer/package.json
+verbose loadDefaults jsonpointer@4.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/cookie/package.json
+verbose loadDefaults cookie@0.3.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.some/package.json
+verbose loadDefaults lodash.some@4.6.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/encodeurl/package.json
+verbose loadDefaults encodeurl@1.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/ejs/package.json
+verbose loadDefaults ejs@2.5.5
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.pick/package.json
+verbose loadDefaults lodash.pick@4.4.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/accepts/package.json
+verbose loadDefaults accepts@1.3.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/generate-object-property/package.json
+verbose loadDefaults generate-object-property@1.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/util-deprecate/package.json
+verbose loadDefaults util-deprecate@1.0.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/dom-serializer/package.json
+verbose loadDefaults dom-serializer@0.1.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/hoek/package.json
+verbose loadDefaults hoek@2.16.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/is-my-json-valid/package.json
+verbose loadDefaults is-my-json-valid@2.15.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/on-finished/package.json
+verbose loadDefaults on-finished@2.3.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/ansi-styles/package.json
+verbose loadDefaults ansi-styles@2.2.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.map/package.json
+verbose loadDefaults lodash.map@4.6.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/tunnel-agent/package.json
+verbose loadDefaults tunnel-agent@0.4.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/graceful-readlink/package.json
+verbose loadDefaults graceful-readlink@1.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/css-what/package.json
+verbose loadDefaults css-what@2.1.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/nth-check/package.json
+verbose loadDefaults nth-check@1.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/destroy/package.json
+verbose loadDefaults destroy@1.0.4
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.bind/package.json
+verbose loadDefaults lodash.bind@4.2.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/type-is/package.json
+verbose loadDefaults type-is@1.6.14
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/finalhandler/package.json
+verbose loadDefaults finalhandler@0.5.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/isstream/package.json
+verbose loadDefaults isstream@0.1.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/media-typer/package.json
+verbose loadDefaults media-typer@0.3.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/is-property/package.json
+verbose loadDefaults is-property@1.0.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/dashdash/package.json
+verbose loadDefaults dashdash@1.14.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/http-errors/package.json
+verbose loadDefaults http-errors@1.5.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/mime/package.json
+verbose loadDefaults mime@1.3.4
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/path-to-regexp/package.json
+verbose loadDefaults path-to-regexp@0.1.7
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/punycode/package.json
+verbose loadDefaults punycode@1.4.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/process-nextick-args/package.json
+verbose loadDefaults process-nextick-args@1.0.7
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/fresh/package.json
+verbose loadDefaults fresh@0.3.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/har-validator/package.json
+verbose loadDefaults har-validator@2.0.6
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/qs/package.json
+verbose loadDefaults qs@6.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/debug/package.json
+verbose loadDefaults debug@2.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/has-ansi/package.json
+verbose loadDefaults has-ansi@2.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.reduce/package.json
+verbose loadDefaults lodash.reduce@4.6.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/asn1/package.json
+verbose loadDefaults asn1@0.2.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/methods/package.json
+verbose loadDefaults methods@1.1.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.reject/package.json
+verbose loadDefaults lodash.reject@4.6.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/send/package.json
+verbose loadDefaults send@0.14.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/vary/package.json
+verbose loadDefaults vary@1.1.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/aws4/package.json
+verbose loadDefaults aws4@1.5.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/asynckit/package.json
+verbose loadDefaults asynckit@0.4.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/parseurl/package.json
+verbose loadDefaults parseurl@1.3.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/ee-first/package.json
+verbose loadDefaults ee-first@1.1.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/pinkie/package.json
+verbose loadDefaults pinkie@2.0.4
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/cookie-signature/package.json
+verbose loadDefaults cookie-signature@1.0.6
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/depd/package.json
+verbose loadDefaults depd@1.1.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/boom/package.json
+verbose loadDefaults boom@2.10.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/tweetnacl/package.json
+verbose loadDefaults tweetnacl@0.14.5
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/escape-html/package.json
+verbose loadDefaults escape-html@1.0.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/generate-function/package.json
+verbose loadDefaults generate-function@2.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/domutils/package.json
+verbose loadDefaults domutils@1.5.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/range-parser/package.json
+verbose loadDefaults range-parser@1.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/is-typedarray/package.json
+verbose loadDefaults is-typedarray@1.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/pinkie-promise/package.json
+verbose loadDefaults pinkie-promise@2.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/sshpk/package.json
+verbose loadDefaults sshpk@1.10.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/ms/package.json
+verbose loadDefaults ms@0.7.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/content-disposition/package.json
+verbose loadDefaults content-disposition@0.5.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/sntp/package.json
+verbose loadDefaults sntp@1.0.9
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/combined-stream/package.json
+verbose loadDefaults combined-stream@1.0.5
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/statuses/package.json
+verbose loadDefaults statuses@1.3.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/mime-types/package.json
+verbose loadDefaults mime-types@2.1.14
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/domhandler/package.json
+verbose loadDefaults domhandler@2.3.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/cheerio/package.json
+verbose loadDefaults cheerio@0.22.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/utils-merge/package.json
+verbose loadDefaults utils-merge@1.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/json-schema/package.json
+verbose loadDefaults json-schema@0.2.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/aws-sign2/package.json
+verbose loadDefaults aws-sign2@0.6.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/css-select/package.json
+verbose loadDefaults css-select@1.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/forever-agent/package.json
+verbose loadDefaults forever-agent@0.6.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/request/package.json
+verbose loadDefaults request@2.79.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/etag/package.json
+verbose loadDefaults etag@1.7.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/setprototypeof/package.json
+verbose loadDefaults setprototypeof@1.0.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/jsbn/package.json
+verbose loadDefaults jsbn@0.1.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/string_decoder/package.json
+verbose loadDefaults string_decoder@0.10.31
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/inherits/package.json
+verbose loadDefaults inherits@2.0.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/ecc-jsbn/package.json
+verbose loadDefaults ecc-jsbn@0.1.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/oauth-sign/package.json
+verbose loadDefaults oauth-sign@0.8.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/form-data/package.json
+verbose loadDefaults form-data@2.1.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/xtend/package.json
+verbose loadDefaults xtend@4.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/extsprintf/package.json
+verbose loadDefaults extsprintf@1.0.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/verror/package.json
+verbose loadDefaults verror@1.3.6
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/buffer-shims/package.json
+verbose loadDefaults buffer-shims@1.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/unpipe/package.json
+verbose loadDefaults unpipe@1.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.assignin/package.json
+verbose loadDefaults lodash.assignin@4.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/delayed-stream/package.json
+verbose loadDefaults delayed-stream@1.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/supports-color/package.json
+verbose loadDefaults supports-color@2.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/lodash.flatten/package.json
+verbose loadDefaults lodash.flatten@4.4.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/jsprim/package.json
+verbose loadDefaults jsprim@1.3.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/proxy-addr/package.json
+verbose loadDefaults proxy-addr@1.1.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/caseless/package.json
+verbose loadDefaults caseless@0.11.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/array-flatten/package.json
+verbose loadDefaults array-flatten@1.1.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/bcrypt-pbkdf/package.json
+verbose loadDefaults bcrypt-pbkdf@1.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/negotiator/package.json
+verbose loadDefaults negotiator@0.6.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/isarray/package.json
+verbose loadDefaults isarray@1.0.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/tough-cookie/package.json
+verbose loadDefaults tough-cookie@2.3.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/ipaddr.js/package.json
+verbose loadDefaults ipaddr.js@1.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/stringstream/package.json
+verbose loadDefaults stringstream@0.0.5
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/cryptiles/package.json
+verbose loadDefaults cryptiles@2.0.5
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/forwarded/package.json
+verbose loadDefaults forwarded@0.1.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/chalk/package.json
+verbose loadDefaults chalk@1.1.3
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/domelementtype/package.json
+verbose loadDefaults domelementtype@1.3.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/merge-descriptors/package.json
+verbose loadDefaults merge-descriptors@1.0.1
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/content-type/package.json
+verbose loadDefaults content-type@1.0.2
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/assert-plus/package.json
+verbose loadDefaults assert-plus@0.2.0
+verbose caching /home/pi/Desktop/Dev/node/WebScrapping/node_modules/uuid/package.json
+verbose loadDefaults uuid@3.0.1
+verbose from cache /home/pi/Desktop/Dev/node/WebScrapping/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'express@latest', null ]
+silly cache add: name, spec, args [ undefined, 'express@latest', [ 'express@latest', null ] ]
+verbose parsed url { pathname: 'express@latest',
+verbose parsed url   path: 'express@latest',
+verbose parsed url   href: 'express@latest' }
+silly cache add: name, spec, args [ 'express', 'latest', [ 'express', 'latest' ] ]
+verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+verbose addNamed [ 'express', 'latest' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'express', 'latest' ]
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+http GET https://registry.npmjs.org/express
+ERR! Error: failed to fetch from registry: express
+ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:212:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/usr/lib/nodejs/request/main.js:412:12)
+ERR!     at ClientRequest.g (events.js:156:14)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1256:7)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/pi/Desktop/Dev/node/WebScrapping/npm-debug.log npm
+ERR! 
+ERR! System Linux 4.1.19-v7+
+ERR! command "/usr/bin/nodejs" "/usr/bin/npm" "install" "express"
+ERR! cwd /home/pi/Desktop/Dev/node/WebScrapping
+ERR! node -v v0.6.19
+ERR! npm -v 1.1.4
+ERR! message failed to fetch from registry: express
+verbose exit [ 1, true ]
